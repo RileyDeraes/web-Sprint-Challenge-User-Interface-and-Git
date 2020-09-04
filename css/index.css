@@ -229,10 +229,61 @@ footer nav a {
     text-decoration: none;
 }
 
-footer nav a:hover{
+footer nav a:hover {
     color: black;
     background-color: white;
     transform: 2s;
 }
 
 /* CSS for about.html */
+
+.about-text {
+    width: 100%;
+    padding: 0 2% 2%;
+    border-bottom: 1px dashed black;
+}
+
+#about-stuff {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2% 0 0 0;
+}
+
+/* stretch goal: explaining why I used Flexbox here.
+It's easier to use a flexbox for this part, it's easier to read and understand, and it's scalable/flexible (say if I were to use a mobile phone). */
+
+.about-small {
+    width: 46%;
+    height: 100%;
+    border-bottom: 1px dashed black;
+    margin: 2% 0 5% 0;
+}
+
+.about-small p {
+    padding: 0 0 2% 0;
+}
+
+button {
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2% 5%;
+    margin: 5% 0 5% 0;;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+button:hover {
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    transform: 2s;
+}
+
+article {
+    padding: 5% 2%;
+}
